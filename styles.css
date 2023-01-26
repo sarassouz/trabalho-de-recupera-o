@@ -50,21 +50,6 @@ button {
   height: 20px;
 }
 
-.video #chromecast:hover {
-  align-items: center;
-  border-radius: 50%;
-  background-color: gray;
-  padding: 2px 2px 2px 2px;
-}
-
-.video button {
-  opacity: 0;
-}
-
-.video:hover button {
-  opacity: 1;
-}
-
 .video button.top{
   position: absolute;
   top: 10px;
@@ -87,7 +72,7 @@ button {
 
 .video button.middle{
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 50%;
 }
 
@@ -127,4 +112,96 @@ button {
   color: white;
   fill: white;
   border-radius: 17px;
+}
+
+.video #chromecast{
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.video #chromecast:hover {
+  border: 5px solid grey;
+  background-color: grey;
+}
+
+.video #legenda{
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.video #legenda:hover {
+  border: 5px solid grey;
+  background-color: grey;
+}
+
+.video #engrenagem{
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.video #engrenagem:hover {
+  border: 5px solid grey;
+  background-color: grey;
+}
+
+.video #anterior{
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.video #anterior:hover {
+  border: 5px solid grey;
+  background-color: grey;
+}
+
+.video #play{
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.video #play:hover {
+  border: 5px solid grey;
+  background-color: grey;
+}
+
+.video #proximo{
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.video #proximo:hover {
+  border: 5px solid grey;
+  background-color: grey;
+}
+
+.video #expandir{
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.video #expandir:hover {
+  border: 5px solid grey;
+  background-color: grey;
+}
+
+.video button {
+  opacity: 0;
+}
+
+.video:hover button {
+  opacity: 1;
 }
