@@ -1,8 +1,130 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
-svg {
-  height: 20px;
+.main {
+  width: 600px;
+  margin: 0 auto;
+  color: black;
+  border-radius: 5px;
+  height: 80%;
+  padding: 0 10px;
+}
+
+.title {
+  position: relative;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 25px;
+}
+
+.title svg {
+  height: 40px;
   fill: red;
+}
+
+.video {
+  background-color: black;
+  height: 250px;
+  width: 600px;
+  border-bottom: solid 4px red;
+  border-radius: 5px;
+  position: relative;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.video svg {
+  fill: white;
+  height: 20px;
+}
+
+.video #chromecast:hover {
+  align-items: center;
+  border-radius: 50%;
+  background-color: gray;
+  padding: 2px 2px 2px 2px;
+}
+
+.video button {
+  opacity: 0;
+}
+
+.video:hover button {
+  opacity: 1;
+}
+
+.video button.top{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.video #chromecast {
+  right: 85px;
+}
+
+.video #legenda {
+  right: 45px;
+}
+
+.video button.bottom{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.video button.middle{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.video #anterior {
+  right: 55%;
+}
+
+.video #proximo {
+  right: 45%;
+}
+
+.info {
+  position: relative;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info svg {
+  width: 20px;
+  height: 20px;
+  padding: 0px 5px 0px 0px;
+}
+
+.info h2 {
+  font-size: 20px;
+}
+
+.info #like {
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  padding: 7px 7px 7px 7px;
+  background-color: black;
+  color: white;
+  fill: white;
+  border-radius: 17px;
 }
